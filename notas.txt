@@ -1,0 +1,33 @@
+Para comentarios:
+    css: /* (comentario) */
+    html: <!-- (cometario) -->
+
+Tamaños pantallas (sugerencia) para mq:
+    Celular: 480px
+    Tablet: 768px
+    Monitor: 11240px
+    Algo más grande: 1400px
+
+gap: separa elementos de un flexbox.
+
+
+Código básico para css:
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 1.6rem; /* 1rem = 10px*/
+    }
+
+1fr = 1 fracción
+******************
+
+pseudo clases: .class
+:hover{} => modifica en tiempo real la parte visual de un elementos
+:last-of-type {} => selecciona el último elemento igual para modificar
