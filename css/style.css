@@ -93,3 +93,25 @@ img {
   color: var(--blanco);
   margin-top: 5rem;
 }
+.contenedor{
+  max-width: 140rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) { 
+    .barra{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+}
+
+.logo{
+  color: var(--blanco);
+}
+.logo__nombre{
+  font-weight: normal;
+}
+.logo__bold{
+  font-weight: bold;
+}

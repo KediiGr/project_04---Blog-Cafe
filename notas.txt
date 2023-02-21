@@ -2,6 +2,16 @@ Para comentarios:
     css: /* (comentario) */
     html: <!-- (cometario) -->
 
+Editar css.json para agregar snippets:
+    - ctrl + shift + p
+    - buscar: "user snippets"
+    - buscar: css.json
+    - código: 
+        "Crear un media query":{
+		"prefix": "mq",
+		"body": "@media (min-width: $1) { \n    $2 \n}"
+	    }
+
 Tamaños pantallas (sugerencia) para mq:
     Celular: 480px
     Tablet: 768px
