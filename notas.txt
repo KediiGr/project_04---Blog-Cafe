@@ -2,7 +2,7 @@ Para comentarios:
     css: /* (comentario) */
     html: <!-- (cometario) -->
 
-Editar css.json para agregar snippets:
+Editar css.json para agregar snippets mq:
     - ctrl + shift + p
     - buscar: "user snippets"
     - buscar: css.json
@@ -39,5 +39,12 @@ body{
 ******************
 
 pseudo clases: .class
-:hover{} => modifica en tiempo real la parte visual de un elementos
+:hover{} => modifica en tiempo real la parte visual de un elemento
 :last-of-type {} => selecciona el último elemento igual para modificar
+
+formas de dar separacion a un flex:
+gap: 2rem;
+
+en caso de que un navegador no soporte gap:
+flex-basis: calc(50% - 1rem);
+añadiendo justify-content: space-between;
