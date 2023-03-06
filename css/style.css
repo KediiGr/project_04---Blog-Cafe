@@ -277,4 +277,14 @@ p{
   height: 15rem;
 }
 
-
+.firma__estilo{
+  color: var(--blanco);
+  text-align: center;
+  font-family: var(--fuente_s);
+  font-size: 2.3rem;
+}
+@media (min-width: 768px) { 
+      .firma__estilo{
+        font-size: 3rem;
+      }
+  }
